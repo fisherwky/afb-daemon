@@ -48,7 +48,7 @@ $ dnf install alsa-lib-devel pulseaudio-libs-devel glib2-devel gupnp-av-devel # 
 
  To build, move to your HOME directory and type:
 ```
-$ export LIBMICRODEST= /opt/libmicrohttpd-0.9.49-agl
+$ export LIBMICRODEST=/opt/libmicrohttpd-0.9.49-agl
 $ wget http://iot.bzh/download/public/2016/afb-demos/libmicrohttpd-0.9.49-agl.tgz
 $ tar -xzf libmicrohttpd-0.9.49-agl.tgz
 $ cd libmicrohttpd-0.9.49-agl
