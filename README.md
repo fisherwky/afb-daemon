@@ -55,7 +55,8 @@ $ cd libmicrohttpd-0.9.49-agl
 $ ./configure --prefix=$LIBMICRODEST
 $ make
 $ sudo make install-strip
-$ sudo ln -s /opt/libmicrohttpd-0.9.49-agl/lib/libmicrohttpd.so.12.37.0 /usr/lib/x86_64-linux-gnu/libmicrohttpd.so
+$ sudo cp /opt/libmicrohttpd-0.9.49-agl/lib/libmicrohttpd.so.12.37.0 /usr/lib/x86_64-linux-gnu/
+$ sudo ln -s /usr/lib/x86_64-linux-gnu/libmicrohttpd.so.12.37.0 /usr/lib/x86_64-linux-gnu/libmicrohttpd.so
 
 $ git clone https://github.com/iotbzh/afb-daemon.git
 $ cd afb-daemon
